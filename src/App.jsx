@@ -19,8 +19,11 @@ const App = () => {
             alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
           />
         </figure>
-        <h2>About Cesar:</h2>
-        <p>lorem ipsum dolor sit amet, consectetur</p>
+
+        <div>
+          <h2>About Cesar:</h2>
+          <p>lorem ipsum dolor sit amet, consectetur</p>
+        </div>
       </article>
 
       <footer></footer>
