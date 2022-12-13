@@ -1,5 +1,4 @@
 import React from 'react';
-import { hot } from 'react-hot-loader';
 import Navbar from './components/Navbar';
 import profilePicture from '../public/profilePicture.jpg';
 import './styles.css';
@@ -31,4 +30,4 @@ const App = () => {
   );
 };
 
-export default hot(module)(App);
+export default App;
