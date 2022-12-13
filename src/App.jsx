@@ -1,7 +1,10 @@
 import React from 'react';
-import { hot } from 'react-hot-loader';
+import { Routes, Route } from 'react-router-dom';
+
 import Navbar from './components/Navbar';
-import profilePicture from '../public/profilePicture.jpg';
+import Home from './components/Home';
+import NotFound from './components/NotFound';
+
 import './styles.css';
 
 const App = () => {
@@ -11,24 +14,17 @@ const App = () => {
         <Navbar />
       </header>
 
-      <article class="aboutMe">
-        <figure>
-          <img
-            src={profilePicture}
-            class="picture"
-            alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
-          />
-        </figure>
-
-        <div>
-          <h2>About Cesar:</h2>
-          <p>lorem ipsum dolor sit amet, consectetur</p>
-        </div>
-      </article>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/projects" element={<Projects />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/recommendations" element={<Recommendations />} /> */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
 
       <footer></footer>
     </div>
   );
 };
 
-export default hot(module)(App);
+export default App;

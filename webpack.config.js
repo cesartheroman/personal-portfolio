@@ -13,7 +13,7 @@ module.exports = {
         options: { presets: ['@babel/env'] },
       },
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
       },
       {
@@ -29,9 +29,11 @@ module.exports = {
     filename: 'bundle.js',
   },
   devServer: {
-    contentBase: path.join(__dirname, 'public/'),
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
+    compress: true,
     port: 3000,
-    publicPath: 'http://localhost:3000/dist/',
     hot: true,
   },
   plugins: [new webpack.HotModuleReplacementPlugin()],
