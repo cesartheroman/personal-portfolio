@@ -12,10 +12,10 @@ const Home = () => {
         />
       </figure>
 
-      <div>
+      <section>
         <h2>About Cesar:</h2>
         <p>lorem ipsum dolor sit amet, consectetur</p>
-      </div>
+      </section>
     </article>
   );
 };
