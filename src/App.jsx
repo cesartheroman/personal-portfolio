@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import profilePicture from '../public/profilePicture.jpg';
+import Home from './components/Home';
+
 import './styles.css';
 
 const App = () => {
@@ -10,20 +11,7 @@ const App = () => {
         <Navbar />
       </header>
 
-      <article class="aboutMe">
-        <figure>
-          <img
-            src={profilePicture}
-            class="picture"
-            alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
-          />
-        </figure>
-
-        <div>
-          <h2>About Cesar:</h2>
-          <p>lorem ipsum dolor sit amet, consectetur</p>
-        </div>
-      </article>
+      <Home />
 
       <footer></footer>
     </div>

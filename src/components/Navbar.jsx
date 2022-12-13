@@ -2,20 +2,20 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav class="navbar">
-      <ul class="navItem">
+    <nav className="navbar">
+      <ul className="navItem">
         <li>
           <a href="/">HOME</a>
         </li>
       </ul>
-      <ul class="links">
-        <li class="navItem">
+      <ul className="links">
+        <li className="navItem">
           <a href="">PROJECTS</a>
         </li>
-        <li class="navItem">
+        <li className="navItem">
           <a href="">RESUME</a>
         </li>
-        <li class="navItem">
+        <li className="navItem">
           <a href="">RECOMMENDATIONS</a>
         </li>
       </ul>
