@@ -1,5 +1,3 @@
-const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -8,7 +6,6 @@ module.exports = {
     path: __dirname + '/dist',
     filename: 'bundle.js',
   },
-  mode: 'development',
   resolve: { extensions: ['*', '.js', '.jsx'] },
   module: {
     rules: [
@@ -27,14 +24,6 @@ module.exports = {
         use: ['file-loader'],
       },
     ],
-  },
-  devServer: {
-    static: {
-      directory: path.join(__dirname, 'public'),
-    },
-    compress: true,
-    port: 3000,
-    hot: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
