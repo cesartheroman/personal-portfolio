@@ -37,7 +37,6 @@ module.exports = {
     hot: true,
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
       title: 'Cesar Roman Portfolio',
       template: 'public/index.html',
