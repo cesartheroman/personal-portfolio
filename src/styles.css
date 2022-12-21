@@ -1,20 +1,93 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
   box-sizing: border-box;
-  border: 1px dashed;
+  font-size: 16px;
 }
 
-.navbarContainer {
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  border: 1px dashed black;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  min-height: 100%;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: white;
+  }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburgerMenu {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: none;
+  margin: 20px;
+  background: linear-gradient(
+    to bottom,
+    #3d0e61,
+    #3d0e61 20%,
+    white 20%,
+    white 40%,
+    #3d0e61 40%,
+    #3d0e61 60%,
+    white 60%,
+    white 80%,
+    #3d0e61 80%,
+    #3d0e61 100%
+  );
+}
+
+.hamburgerMenu .navbar {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: #3d0e61;
+  padding: 0px 10px;
+}
+
+/* .navbarContainer {
   display: flex;
   justify-content: center;
-  padding: 20px 0;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 90%;
 }
 
 .links {
@@ -24,7 +97,6 @@
 
 .navItem {
   margin: 1rem;
-  list-style: none;
 }
 
 .home {
@@ -37,10 +109,6 @@
   display: flex;
   flex-grow: 1;
   justify-content: center;
-}
-
-.picture {
-  border-radius: 50%;
 }
 
 .aboutMe {
@@ -58,4 +126,4 @@
   background-color: white;
   border: 2px solid rgb(240, 240, 240);
   border-radius: 12px;
-}
+} */
