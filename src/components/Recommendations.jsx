@@ -6,7 +6,7 @@ const Recommendations = () => {
     <div>
       {recommendations.map((recommendation) => {
         const recommendationSplits = recommendation.text.split('\n');
-        console.log(recommendation.text.split('\n'));
+
         return (
           <div key={recommendation.name}>
             <a target="_blank" href={recommendation.linkedInUrl}>
