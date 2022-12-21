@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePicture from '../../public';
+import { profilePicture } from '../../public';
 
 const Home = () => {
   return (
