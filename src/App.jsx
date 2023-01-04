@@ -8,9 +8,9 @@ import './styles.css';
 const App = () => {
   return (
     <div className="App">
-      <header className="navbarContainer">
+      {/* <header className="navbarContainer">
         <Navbar />
-      </header>
+      </header> */}
 
       <Routes>
         <Route path="/" element={<Home />} />
