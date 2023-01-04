@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <>
-      <input type="checkbox" id="hamburgerInput" class="burgerShower" />
-      <label className="hamburgerMenu" for="hamburgerInput">
+      <input type="checkbox" id="hamburgerInput" className="burgerShower" />
+      <label className="hamburgerMenu" htmlFor="hamburgerInput">
         <nav className="navbar">
           <ul>
             <li className="navItem">

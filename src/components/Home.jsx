@@ -1,5 +1,6 @@
 import React from 'react';
 import { profilePicture } from '../../public';
+import { copy } from './definitions';
 
 const Home = () => {
   return (
@@ -11,10 +12,18 @@ const Home = () => {
         />
       </figure>
 
-      <div className="aboutMe">
-        <h2>About Cesar:</h2>
-        <p>lorem ipsum dolor sit amet, consectetur</p>
-      </div>
+      <article className="intro">
+        <p className="name">
+          {copy.greeting}
+          <span>{copy.name}</span>
+        </p>
+
+        <h2>{copy.specialty}</h2>
+
+        <p>{copy.introduction}</p>
+
+        <p>{copy.currentJob}</p>
+      </article>
     </section>
   );
 };
