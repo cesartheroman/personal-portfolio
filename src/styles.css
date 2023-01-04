@@ -1,20 +1,124 @@
-* {
-  margin: 0;
-  padding: 0;
+html {
   box-sizing: border-box;
-  border: 1px dashed;
 }
 
-.navbarContainer {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Oxygen, sans-serif;
+  background-color: #171321;
+  color: #f7f8fa;
+  font-size: 1.3rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: #e310cb;
+}
+
+a:hover {
+  color: #ff17e4;
+  text-decoration: none;
+}
+
+.intro {
+  padding-bottom: 10rem;
+}
+
+.intro p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.intro .name {
+  font-family: 'Oxygen mono', monospace;
+}
+
+.name span {
+  font-family: Oxygen, sans-serif;
+  font-size: 4rem;
+  color: #86fbfb;
+  display: block;
+}
+
+.intro h2 {
+  font-size: 4rem;
+  font-weight: normal;
+}
+
+.contactMe {
+  background-color: #4b0d49;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactMe p {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+}
+
+.hamburgerMenu {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: none;
+  margin: 20px;
+  background: linear-gradient(
+    to bottom,
+    #3d0e61,
+    #3d0e61 20%,
+    white 20%,
+    white 40%,
+    #3d0e61 40%,
+    #3d0e61 60%,
+    white 60%,
+    white 80%,
+    #3d0e61 80%,
+    #3d0e61 100%
+  );
+}
+
+.hamburgerMenu .navbar {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 200px;
+  height: 100%;
+  background-color: #3d0e61;
+  padding: 0px 10px;
+} */
+
+/* .navbarContainer {
   display: flex;
   justify-content: center;
-  padding: 20px 0;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 90%;
 }
 
 .links {
@@ -24,7 +128,6 @@
 
 .navItem {
   margin: 1rem;
-  list-style: none;
 }
 
 .home {
@@ -37,10 +140,6 @@
   display: flex;
   flex-grow: 1;
   justify-content: center;
-}
-
-.picture {
-  border-radius: 50%;
 }
 
 .aboutMe {
@@ -58,4 +157,4 @@
   background-color: white;
   border: 2px solid rgb(240, 240, 240);
   border-radius: 12px;
-}
+} */
