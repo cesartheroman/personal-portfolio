@@ -45,6 +45,8 @@ a:hover {
   text-decoration: none;
 }
 
+/* intro styles */
+
 .intro {
   padding-bottom: 10rem;
 }
@@ -71,6 +73,8 @@ a:hover {
   font-weight: normal;
 }
 
+/* contact me styles */
+
 .contactMe {
   align-items: center;
   background-color: var(--plum);
@@ -80,6 +84,78 @@ a:hover {
 
 .contactMe p {
   text-align: center;
+}
+
+/* nav styles */
+
+nav {
+  font-family: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+}
+
+nav h1 {
+  font-family: var(--sans);
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a {
+  color: var(--white);
+  display: block;
+  text-decoration: none;
+}
+
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.brandIcon {
+  font-size: 150%;
+}
+
+.brandIcon,
+.nameIcon {
+  color: var(--aqua);
+}
+
+.brandIcon:hover,
+.nameIcon:hover {
+  color: var(--hotmag);
+}
+
+.resumeButton {
+  background-color: var(--magenta);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.resumeButton:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
+
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
 }
 
 img {

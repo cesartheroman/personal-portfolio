@@ -1,26 +1,50 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
+
 const Navbar = () => {
   return (
     <nav className="navbar">
       <ul>
-        <li className="navItem">
+        <li>
           <h1>
-            <Link to="/">Cesar Roman</Link>
+            <Link to="/">
+              <FontAwesomeIcon icon={faLaptopCode} className="nameIcon" />
+              {'  '}
+              <span>Cesar Roman</span>
+            </Link>
           </h1>
         </li>
 
-        <li className="navItem">
-          <Link to="/projects">PROJECTS</Link>
+        <li>
+          <Link to="/projects">Projects</Link>
         </li>
 
-        <li className="navItem">
-          <Link to="/recommendations">RECOMMENDATIONS</Link>
+        <li>
+          <Link to="/recommendations">Recommendations</Link>
         </li>
 
-        <li className="navItem">
-          <Link to="/resume">RESUME</Link>
+        <li>
+          <a href="https://www.linkedin.com/in/cesartheroman/" target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} className="brandIcon" />
+            <span className="sr-only">LinkedIn</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/cesartheroman" target="_blank">
+            <FontAwesomeIcon icon={faSquareGithub} className="brandIcon" />
+            <span className="sr-only">GitHub</span>
+          </a>
+        </li>
+
+        <li>
+          <Link to="/resume" className="resumeButton">
+            Resume
+          </Link>
         </li>
       </ul>
     </nav>
