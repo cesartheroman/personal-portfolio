@@ -2,8 +2,8 @@ const copy = {
   aboutMe: {
     greeting: `Hi, my name is`,
     name: `Cesar Roman.`,
-    specialty: `I specialize in JavaScript, TypeScript, React, and Node.`,
-    introduction: `I'm a full-stack software engineer with strong previous experience in complex and consultative B2B software sales and implementation.`,
+    introduction: `I build things for the web.`,
+    specialty: `I'm a full-stack software engineer specializing in JavaScript, TypeScript, React, and Node.`,
     currentJob: `Currently, I'm a free agent looking to join an exciting tech company with strong leadership, team culture, and growth opportunities!`,
   },
   contactMe: {

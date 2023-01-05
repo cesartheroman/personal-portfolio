@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <Link to="/resume" className="resumeButton">
+            <Link to="/resume" className="button">
               Resume
             </Link>
           </li>

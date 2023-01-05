@@ -13,20 +13,29 @@ const Home = () => {
             <span>{copy.aboutMe.name}</span>
           </p>
 
-          <h2>{copy.aboutMe.specialty}</h2>
+          <figure className="pictureContainerMobile">
+            <img
+              src={profilePicture}
+              alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
+            />
+          </figure>
 
-          <p>{copy.aboutMe.introduction}</p>
+          <h2>{copy.aboutMe.introduction}</h2>
+
+          <p>{copy.aboutMe.specialty}</p>
 
           <p>{copy.aboutMe.currentJob}</p>
         </article>
 
-        <figure className="pictureContainer">
+        <figure className="pictureContainerDesktop">
           <img
             src={profilePicture}
             alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
           />
         </figure>
       </section>
+
+      <div className="gradient" />
 
       <ContactMe />
     </>
