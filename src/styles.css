@@ -1,3 +1,16 @@
+:root {
+  --aqua: #86fbfb;
+  --black: #171321;
+  --dkblue: #0d314b;
+  --font-size: 1.3rem;
+  --hotmag: #ff17e4;
+  --magenta: #e310cb;
+  --mono: 'Oxygen mono', monospace;
+  --plum: #4b0d49;
+  --sans: Oxygen, sans-serif;
+  --white: #f7f8fa;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -9,12 +22,12 @@ html {
 }
 
 body {
-  padding: 0;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: var(--sans);
+  font-size: var(--font-size);
   margin: 0;
-  font-family: Oxygen, sans-serif;
-  background-color: #171321;
-  color: #f7f8fa;
-  font-size: 1.3rem;
+  padding: 0;
 }
 
 h1,
@@ -24,13 +37,15 @@ h3 {
 }
 
 a {
-  color: #e310cb;
+  color: var(--magenta);
 }
 
 a:hover {
-  color: #ff17e4;
+  color: var(--hotmag);
   text-decoration: none;
 }
+
+/* intro styles */
 
 .intro {
   padding-bottom: 10rem;
@@ -42,14 +57,15 @@ a:hover {
 }
 
 .intro .name {
-  font-family: 'Oxygen mono', monospace;
+  font-family: var(--mono);
 }
 
 .name span {
-  font-family: Oxygen, sans-serif;
-  font-size: 4rem;
-  color: #86fbfb;
+  color: var(--aqua);
   display: block;
+  font-family: var(--sans);
+  font-size: 4rem;
+  font-weight: 300;
 }
 
 .intro h2 {
@@ -57,21 +73,95 @@ a:hover {
   font-weight: normal;
 }
 
+/* contact me styles */
+
 .contactMe {
-  background-color: #4b0d49;
+  align-items: center;
+  background-color: var(--plum);
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .contactMe p {
   text-align: center;
 }
 
+/* nav styles */
+
+nav {
+  font-family: var(--mono);
+  font-size: 80%;
+  padding: 1rem;
+}
+
+nav h1 {
+  font-family: var(--sans);
+}
+
+nav ul {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2rem;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a {
+  color: var(--white);
+  display: block;
+  text-decoration: none;
+}
+
+nav li:first-child {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.brandIcon {
+  font-size: 150%;
+}
+
+.brandIcon,
+.nameIcon {
+  color: var(--aqua);
+}
+
+.brandIcon:hover,
+.nameIcon:hover {
+  color: var(--hotmag);
+}
+
+.resumeButton {
+  background-color: var(--magenta);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.resumeButton:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
+
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
+
 img {
-  max-width: 100%;
-  height: auto;
   border-radius: 50%;
+  height: auto;
+  max-width: 100%;
 }
 
 /* .App {
