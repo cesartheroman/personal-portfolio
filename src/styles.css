@@ -158,6 +158,21 @@ nav li:first-child {
   }
 }
 
+/* footer styles */
+.footer {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
 img {
   border-radius: 50%;
   height: auto;

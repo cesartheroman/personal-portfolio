@@ -16,15 +16,15 @@ const Home = () => {
 
         <article className="intro">
           <p className="name">
-            {copy.greeting}
-            <span>{copy.name}</span>
+            {copy.aboutMe.greeting}
+            <span>{copy.aboutMe.name}</span>
           </p>
 
-          <h2>{copy.specialty}</h2>
+          <h2>{copy.aboutMe.specialty}</h2>
 
-          <p>{copy.introduction}</p>
+          <p>{copy.aboutMe.introduction}</p>
 
-          <p>{copy.currentJob}</p>
+          <p>{copy.aboutMe.currentJob}</p>
         </article>
       </section>
       <ContactMe />
