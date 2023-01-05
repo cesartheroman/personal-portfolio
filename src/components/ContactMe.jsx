@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { copy } from './definitions';
 
 const ContactMe = () => (
