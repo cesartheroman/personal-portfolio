@@ -27,6 +27,7 @@ const Home = () => {
           <p>{copy.aboutMe.currentJob}</p>
         </article>
       </section>
+
       <ContactMe />
     </>
   );

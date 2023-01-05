@@ -47,8 +47,10 @@ a:hover {
 
 /* intro styles */
 
-.intro {
-  padding-bottom: 10rem;
+.home {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .intro p {
@@ -161,10 +163,18 @@ nav li:first-child {
 /* footer styles */
 footer {
   background-color: var(--black);
+  text-align: center;
 }
 
 footer ul {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 3rem;
+  gap: 3rem;
+  justify-content: center;
   list-style-type: none;
+  margin: 2rem 0;
+  padding: 0;
 }
 
 img {
