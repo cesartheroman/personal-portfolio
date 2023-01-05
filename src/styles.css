@@ -45,10 +45,13 @@ a:hover {
   text-decoration: none;
 }
 
-/* intro styles */
+/* home + intro styles */
 
-.intro {
-  padding-bottom: 10rem;
+.home {
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .intro p {
@@ -71,6 +74,9 @@ a:hover {
 .intro h2 {
   font-size: 4rem;
   font-weight: normal;
+}
+
+figure {
 }
 
 /* contact me styles */
@@ -156,6 +162,23 @@ nav li:first-child {
     text-align: left;
     margin-right: auto;
   }
+}
+
+/* footer styles */
+footer {
+  background-color: var(--black);
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 3rem;
+  gap: 3rem;
+  justify-content: center;
+  list-style-type: none;
+  margin: 2rem 0;
+  padding: 0;
 }
 
 img {

@@ -1,16 +1,21 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import { Home, Navbar, NotFound, Recommendations, Resume } from './components';
+import {
+  Home,
+  Footer,
+  Navbar,
+  NotFound,
+  Recommendations,
+  Resume,
+} from './components';
 
 import './styles.css';
 
 const App = () => {
   return (
     <div className="App">
-      <header className="navbarContainer">
-        <Navbar />
-      </header>
+      <Navbar />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,7 +25,7 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
       </Routes>
 
-      <footer></footer>
+      <Footer />
     </div>
   );
 };
