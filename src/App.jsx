@@ -6,6 +6,7 @@ import {
   Footer,
   Navbar,
   NotFound,
+  Projects,
   Recommendations,
   Resume,
 } from './components';
@@ -19,7 +20,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/projects" element={<Projects />} /> */}
+        <Route path="/projects" element={<Projects />} />
         <Route path="/recommendations" element={<Recommendations />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />

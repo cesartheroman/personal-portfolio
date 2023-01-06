@@ -16,6 +16,7 @@ const Home = () => {
           <figure className="pictureContainerMobile">
             <img
               src={profilePicture}
+              className="profilePicture"
               alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
             />
           </figure>
@@ -30,6 +31,7 @@ const Home = () => {
         <figure className="pictureContainerDesktop">
           <img
             src={profilePicture}
+            className="profilePicture"
             alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
           />
         </figure>

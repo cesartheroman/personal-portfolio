@@ -32,7 +32,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 
@@ -73,20 +74,6 @@ a:hover {
 .intro h2 {
   font-size: 4rem;
   font-weight: normal;
-}
-
-/* bacgkround color divs */
-.sectionPlum {
-  background-color: var(--plum);
-}
-
-.gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 23, 228, 1) 0%,
-    rgba(134, 251, 251, 1) 100%
-  );
-  height: 2px;
 }
 
 /* contact me styles */
@@ -148,6 +135,32 @@ nav li:first-child {
   color: var(--hotmag);
 }
 
+/* projects styles */
+.projects {
+  padding: 4rem 1rem;
+}
+
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+.projects h3 {
+  color: var(--aqua);
+}
+
+.projects h4 {
+  font-size: 1rem;
+  font-family: var(--mono);
+}
+
+.blackBox {
+  background-color: var(--black);
+  padding: 1rem;
+  border-radius: 10px;
+  color: var(--white);
+}
+
 /* button styles */
 .button {
   background-color: var(--magenta);
@@ -181,18 +194,38 @@ footer ul {
 }
 
 /* image styles */
-img {
+.profilePicture {
   border-radius: 50%;
   max-width: 100%;
 }
 
-/* media queries */
-@media (max-width: 767px) {
-  .pictureContainerDesktop {
-    display: none;
-  }
+.pictureContainerDesktop {
+  display: none;
 }
 
+.projectScreenshots {
+  max-width: 100%;
+}
+
+/* background color divs */
+.sectionPlum {
+  background-color: var(--plum);
+}
+
+.sectionDkBlue {
+  background-color: var(--dkblue);
+}
+
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 23, 228, 1) 0%,
+    rgba(134, 251, 251, 1) 100%
+  );
+  height: 2px;
+}
+
+/* media queries */
 @media (min-width: 768px) {
   nav {
     max-width: 1200px;
@@ -207,6 +240,10 @@ img {
 
   .pictureContainerMobile {
     display: none;
+  }
+
+  .pictureContainerDesktop {
+    display: block;
   }
 }
 
