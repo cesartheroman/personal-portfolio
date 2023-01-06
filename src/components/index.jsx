@@ -1,5 +1,7 @@
+export { default as AboutMe } from './AboutMe';
 export { default as ContactMe } from './ContactMe';
 export { default as Home } from './Home';
+export { default as Intro } from './Intro';
 export { default as Footer } from './Footer';
 export { default as Navbar } from './Navbar';
 export { default as NotFound } from './NotFound';
