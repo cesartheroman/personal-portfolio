@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import {
+  ContactMe,
   Home,
   Footer,
   Navbar,
@@ -19,7 +20,15 @@ const App = () => {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Home />
+              <ContactMe />
+            </>
+          }
+        />
         <Route path="/projects" element={<Projects />} />
         <Route path="/recommendations" element={<Recommendations />} />
         <Route path="/resume" element={<Resume />} />
