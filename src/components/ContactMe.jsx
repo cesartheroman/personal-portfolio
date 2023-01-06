@@ -13,8 +13,6 @@ const ContactMe = () => (
         </a>
       </p>
     </section>
-
-    <div className="gradient" />
   </div>
 );
 
