@@ -7,8 +7,8 @@ const Intro = () => (
   <section className="home">
     <article className="intro">
       <p className="name introText">
-        {copy.aboutMe.greeting}
-        <span>{copy.aboutMe.name}</span>
+        {copy.intro.greeting}
+        <span>{copy.intro.name}</span>
       </p>
       <figure className="pictureContainerMobile">
         <img
@@ -18,11 +18,11 @@ const Intro = () => (
         />
       </figure>
       <div className="introText">
-        <h2>{copy.aboutMe.introduction}</h2>
+        <h2>{copy.intro.introduction}</h2>
 
-        <p>{copy.aboutMe.specialty}</p>
+        <p>{copy.intro.specialty}</p>
 
-        <p>{copy.aboutMe.currentJob}</p>
+        <p>{copy.intro.currentJob}</p>
       </div>
     </article>
 

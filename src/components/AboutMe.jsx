@@ -1,36 +1,32 @@
 import React from 'react';
 
 import { indyPhoto } from '../../public';
+import { copy } from '../components/definitions';
 
 const AboutMe = () => (
   <div className="sectionDkBlue">
     <section className="projects">
-      <h2>About Cesar</h2>
+      <h2>{copy.aboutMe.title}</h2>
 
       <article>
         <div className="text">
-          <h3>Just the highlights</h3>
+          <h3>{copy.aboutMe.bodyTitle}</h3>
 
-          <p className="blackBox">
-            Libero non cum aperiam dolor voluptate in sed illo. Repellat est
-            soluta similique ipsa. Omnis aut quasi beatae quaerat deleniti
-            suscipit. Aut ratione pariatur ratione quas. Quam rem omnis nihil
-            officia non.
-          </p>
+          <p className="blackBox">{copy.aboutMe.body}</p>
 
-          <h4>My favorite technologies include:</h4>
+          <h4>{copy.aboutMe.techIntro}</h4>
 
           <ul>
-            <li>React</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            {copy.aboutMe.techBody.map((tech) => (
+              <li key={tech}>{tech}</li>
+            ))}
           </ul>
         </div>
 
         <img
           src={indyPhoto}
           className="projectScreenshots"
-          alt="Photo of Cesar, leaning against a giant football helmet outside."
+          alt={copy.imageInfo.aboutMe}
         ></img>
       </article>
     </section>
