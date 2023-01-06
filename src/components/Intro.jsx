@@ -14,7 +14,7 @@ const Intro = () => (
         <img
           src={profilePicture}
           className="profilePicture"
-          alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
+          alt={copy.imageInfo.intro}
         />
       </figure>
       <div className="introText">
@@ -30,7 +30,7 @@ const Intro = () => (
       <img
         src={profilePicture}
         className="profilePicture"
-        alt="Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background."
+        alt={copy.imageInfo.intro}
       />
     </figure>
   </section>

@@ -23,6 +23,8 @@ const copy = {
     ending: `© 2023 Cesar Roman. All rights reserved.`,
   },
   imageInfo: {
+    intro:
+      'Picture showing Cesar, smiling with crossed arms in a white button-down shirt against an orange background.',
     aboutMe:
       'Photo of Cesar, leaning against a giant Colts football helmet on a sidewalk in Indianapolis.',
   },
