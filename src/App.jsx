@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 import {
+  AboutMe,
   ContactMe,
   Home,
   Footer,
@@ -25,6 +26,7 @@ const App = () => {
           element={
             <>
               <Home />
+              <AboutMe />
               <ContactMe />
             </>
           }
