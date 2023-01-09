@@ -1,6 +1,10 @@
 import React from 'react';
 
-import { portfolioScreenshot, pulsarShop } from '../../public/index';
+import {
+  portfolioScreenshot,
+  pulsarShop,
+  hatchProject,
+} from '../../public/index';
 
 const Projects = () => (
   <>
@@ -39,6 +43,35 @@ const Projects = () => (
         </article>
 
         <article className="reverse">
+          <div className="text">
+            <h4>Twilio Hatch Apprenticeship</h4>
+
+            <h3>Hatch Evaluations</h3>
+
+            <p className="blackBox">
+              Libero non cum aperiam dolor voluptate in sed illo. Repellat est
+              soluta similique ipsa. Omnis aut quasi beatae quaerat deleniti
+              suscipit. Aut ratione pariatur ratione quas. Quam rem omnis nihil
+              officia non.
+            </p>
+
+            <h4>Technologies Used:</h4>
+
+            <ul>
+              <li>React</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+
+          <img
+            src={hatchProject}
+            className="projectScreenshots"
+            alt="Screenshot of Hatch Evaluation Project"
+          ></img>
+        </article>
+
+        <article>
           <div className="text">
             <h4>Bootcamp Project</h4>
 
