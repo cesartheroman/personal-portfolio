@@ -316,7 +316,7 @@ footer ul {
   } */
 }
 
-.hamburgerMenu {
+/* .hamburgerMenu {
   width: 50px;
   height: 50px;
   display: block;
@@ -337,7 +337,7 @@ footer ul {
   );
 }
 
-/* .hamburgerMenu .navbar {
+.hamburgerMenu .navbar {
   visibility: hidden;
   position: fixed;
   top: 0;
