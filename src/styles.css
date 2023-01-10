@@ -135,21 +135,25 @@ nav li:first-child {
   text-align: center;
 }
 
-/* projects styles */
-.projects {
+/* aboutMe, Projects, and Recommendations styles */
+.projects,
+.aboutMe {
   padding: 4rem 1rem;
 }
 
-.projects h2 {
+.projects h2,
+.aboutMe h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
 }
 
-.projects h3 {
+.projects h3,
+.aboutMe h3 {
   color: var(--aqua);
 }
 
-.projects h4 {
+.projects h4,
+.aboutMe h4 {
   font-size: 1rem;
   font-family: var(--mono);
 }
@@ -163,7 +167,8 @@ nav li:first-child {
   line-height: 1.5;
 }
 
-.projects ul {
+.projects ul,
+.aboutMe ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -172,14 +177,6 @@ nav li:first-child {
   justify-content: flex-start;
   gap: 1rem;
   font-size: 1rem;
-}
-
-.projects img {
-  margin: 2rem 0 4rem 0;
-  border-left: 1px solid var(--aqua);
-  border-top: 1px solid var(--aqua);
-  border-radius: 25px;
-  padding: 1rem;
 }
 
 /* footer styles */
@@ -199,6 +196,26 @@ footer ul {
   padding: 0;
 }
 
+/* image styles */
+.profilePicture {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.pictureContainerDesktop {
+  display: none;
+}
+
+.projectScreenshots,
+.aboutMePhoto {
+  max-width: 100%;
+  margin: 2rem 0 4rem 0;
+  border-left: 1px solid var(--aqua);
+  border-top: 1px solid var(--aqua);
+  border-radius: 25px;
+  padding: 1rem;
+}
+
 /* button styles */
 .button {
   background-color: var(--magenta);
@@ -212,20 +229,6 @@ footer ul {
 .button:hover {
   color: var(--white);
   background-color: var(--hotmag);
-}
-
-/* image styles */
-.profilePicture {
-  border-radius: 50%;
-  max-width: 100%;
-}
-
-.pictureContainerDesktop {
-  display: none;
-}
-
-.projectScreenshots {
-  max-width: 100%;
 }
 
 /* background color divs */

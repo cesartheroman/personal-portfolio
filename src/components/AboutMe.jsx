@@ -5,7 +5,7 @@ import { copy } from '../components/definitions';
 
 const AboutMe = () => (
   <div className="sectionDkBlue">
-    <section className="projects">
+    <section className="aboutMe">
       <h2>{copy.aboutMe.title}</h2>
 
       <article>
@@ -25,7 +25,7 @@ const AboutMe = () => (
 
         <img
           src={indyPhoto}
-          className="projectScreenshots"
+          className="aboutMePhoto"
           alt={copy.imageInfo.aboutMe}
         ></img>
       </article>
