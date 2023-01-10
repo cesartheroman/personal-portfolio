@@ -270,11 +270,14 @@ footer ul {
     display: block;
   }
 
-  .projects {
+  .projects,
+  .aboutMe {
     max-width: 1200px;
     margin: 0 auto;
   }
-  .projects article {
+
+  .projects article,
+  .aboutMe article {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     gap: 1rem;
@@ -287,11 +290,13 @@ footer ul {
     text-align: right;
   }
 
-  .projects ul {
+  .projects ul,
+  .aboutMe ul {
     justify-content: flex-end;
   }
 
-  .projects img {
+  .projectScreenshots,
+  .aboutMePhoto {
     grid-column: 1/6;
     grid-row: 1/2;
   }
