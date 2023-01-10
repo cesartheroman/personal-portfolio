@@ -137,23 +137,27 @@ nav li:first-child {
 
 /* aboutMe, Projects, and Recommendations styles */
 .projects,
-.aboutMe {
+.aboutMe,
+.recommendations {
   padding: 4rem 1rem;
 }
 
 .projects h2,
-.aboutMe h2 {
+.aboutMe h2,
+.recommendations h2 {
   font-size: 2.5rem;
   margin-bottom: calc(2.5rem * 1.5);
 }
 
 .projects h3,
-.aboutMe h3 {
+.aboutMe h3,
+.recommendations h3 {
   color: var(--aqua);
 }
 
 .projects h4,
-.aboutMe h4 {
+.aboutMe h4,
+.recommendations h4 {
   font-size: 1rem;
   font-family: var(--mono);
 }
@@ -206,8 +210,9 @@ footer ul {
   display: none;
 }
 
-.projectScreenshots,
-.aboutMePhoto {
+.projectScreenshot,
+.aboutMePhoto,
+.recommendationsPhoto {
   max-width: 100%;
   margin: 2rem 0 4rem 0;
   border-left: 1px solid var(--aqua);
@@ -295,7 +300,7 @@ footer ul {
     justify-content: flex-end;
   }
 
-  .projectScreenshots,
+  .projectScreenshot,
   .aboutMePhoto {
     grid-column: 1/6;
     grid-row: 1/2;
