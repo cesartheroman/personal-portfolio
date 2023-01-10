@@ -28,6 +28,7 @@ const copy = {
     aboutMe:
       'Photo of Cesar, leaning against a giant Colts football helmet on a sidewalk in Indianapolis.',
   },
+  projectsTitle: `Projects I'm proud of`,
 };
 
 export default copy;
