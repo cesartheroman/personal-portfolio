@@ -3,13 +3,38 @@ const copy = {
     greeting: `Hi, my name is`,
     name: `Cesar Roman.`,
     introduction: `I build things for the web.`,
-    specialty: `I'm a Chicago-based full stack software engineer specializing in JavaScript, TypeScript, React, and Node.`,
+    specialty: `I'm a Chicago-based, "Boogie Down Bronx" raised, full stack software engineer specializing in JavaScript, TypeScript, React, and Node.`,
     currentJob: `Currently, I'm a free agent looking to join an exciting tech company with strong leadership, team culture, and growth opportunities!`,
   },
   aboutMe: {
     title: `About Cesar`,
     bodyTitle: `Just the highlights`,
-    body: `I'm a software engineer with strong previous experience in complex and consultative B2B software sales and implementation. \n I started my coding journey back in December of 2019 after four amazing years excelling in B2B software sales at HubSpot. Though I enjoyed my time in sales, I realized that instead of only selling the solution, I wanted to also develop deep technical expertise in software. So I took time to go on my own 'radical sabbatical' to relax, introspect, and see what direction I wanted to take in my career. \n After a ton of research, I decided to accelerate my learning by joining a coding bootcamp called Hack Reactor in NYC in mid 2020. Upon completion, I started my engineering journey as a  Customer Success Engineer at LeanIX in early 2021, but left in order to pursue a full stack engineering position. \n In mid 2022, I came across Twilio's Hatch Apprenticeship Program, decided to apply, and was selected as one of 8 software engineers out of 3,000+ applicants to be accepted into their rigorous 6 month apprenticeship. Unfortunately due to the wider macro-economic climate, though I formally received an "Exceeds Expectations" designation during my time as an apprentice, I was not able to be retained at the end of 2022. `,
+    line1: `I started my coding journey at the end 2019 after four amazing
+                years excelling in B2B software sales at `,
+    line2: `. Though I enjoyed my time in sales, I realized that instead of
+                only selling the solution, I wanted to also build the solution.
+                So, I took some time to go on my own "radical sabbatical" to
+                relax, introspect, and see what direction I wanted to take in my
+                career.`,
+    line3: `After a ton of research, I decided to accelerate my learning by
+                joining a coding bootcamp called `,
+    line4: ` in NYC in mid 2020. Upon completion, I started my engineering
+                journey as a Customer Success Engineer at `,
+    line5: ` at the beginning of 2021, and left at the end of the year in
+                order to pursue full stack engineering positions.`,
+    line6: `In early 2022, I came across `,
+    line7: `, decided to apply, and was selected as one of 8 software
+                engineers out of 3,000+ applicants to be accepted into their
+                rigorous 6 month apprenticeship. While I formally received an
+                "Exceeds Expectations" designation at the end of the
+                apprenticeship, Twilio wasn't able to retain me due to the wider
+                macro-economic climate at the end of 2022. Now, as a free agent,
+                I'm excited to see where my next adventure takes me!`,
+    line8: `Outside of coding, you can catch me yelling at my TV out of pure
+                joy or anger while rooting for the Indianapolis Colts or the
+                Mexican National Football Team. Outside of my sports fandom, you
+                can catch me playing with my Australian Cattle/Shepherd mix dog,
+                Benji!`,
     techIntro: `My favorite technologies include:`,
     techBody: [`React`, `TypeScript`, `Node`, `Express`, `Postgres`],
   },

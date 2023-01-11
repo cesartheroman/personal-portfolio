@@ -175,6 +175,15 @@ nav li:first-child {
   margin: 1rem 0 1rem 0;
 }
 
+.aboutMeText a {
+  color: var(--magenta);
+}
+
+.aboutMeText a:hover {
+  color: var(--hotmag);
+  text-decoration: none;
+}
+
 .projects ul,
 .aboutMe ul {
   list-style-type: none;
