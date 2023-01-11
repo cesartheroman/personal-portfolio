@@ -6,7 +6,7 @@ const projects = [
     name: `This portfolio site!`,
     description: `I began this portfolio before the holidays in 2022, in order to finally have my own website where I could share my projects with everyone. I wanted to both have fun with a project and challenge myself in building this site. I built it using React, and vanilla CSS with flexbox. In order to have a consistent deployment process I used Netlify and a consistent Git feature branch workflow based on team practices I picked up during my time at Twilio.`,
     techUsed: `Technologies Used:`,
-    techUsedList: [`React`, `Flexbox`, `Netlify`, `Webpack`],
+    techUsedList: [`React`, `Flexbox + Grid`, `Netlify`, `Webpack`],
     source: portfolioScreenshot,
     screenShotAlt: `Screenshot of portfolio website`,
   },

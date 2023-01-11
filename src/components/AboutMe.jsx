@@ -3,34 +3,42 @@ import React from 'react';
 import { indyPhoto } from '../../public';
 import { copy } from '../components/definitions';
 
-const AboutMe = () => (
-  <div className="sectionDkBlue">
-    <section className="aboutMe">
-      <h2>{copy.aboutMe.title}</h2>
+const AboutMe = () => {
+  const aboutMeParagraphs = copy.aboutMe.body.split('\n');
 
-      <article>
-        <div className="text">
-          <h3>{copy.aboutMe.bodyTitle}</h3>
+  return (
+    <div className="sectionDkBlue">
+      <section className="aboutMe">
+        <h2>{copy.aboutMe.title}</h2>
 
-          <p className="blackBox">{copy.aboutMe.body}</p>
+        <article>
+          <div className="text">
+            <h3>{copy.aboutMe.bodyTitle}</h3>
 
-          <h4>{copy.aboutMe.techIntro}</h4>
+            <div className="blackBox aboutMe">
+              {aboutMeParagraphs.map((para) => (
+                <p>{para}</p>
+              ))}
+            </div>
 
-          <ul>
-            {copy.aboutMe.techBody.map((tech) => (
-              <li key={tech}>{tech}</li>
-            ))}
-          </ul>
-        </div>
+            <h4>{copy.aboutMe.techIntro}</h4>
 
-        <img
-          src={indyPhoto}
-          className="aboutMePhoto"
-          alt={copy.imageInfo.aboutMe}
-        ></img>
-      </article>
-    </section>
-  </div>
-);
+            <ul>
+              {copy.aboutMe.techBody.map((tech) => (
+                <li key={tech}>{tech}</li>
+              ))}
+            </ul>
+          </div>
+
+          <img
+            src={indyPhoto}
+            className="aboutMePhoto"
+            alt={copy.imageInfo.aboutMe}
+          ></img>
+        </article>
+      </section>
+    </div>
+  );
+};
 
 export default AboutMe;

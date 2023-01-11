@@ -1,8 +1,10 @@
+import { hubspotLogo, twilioLogo } from '../../../public';
+
 const recommendations = [
   {
     company: 'Twilio',
-    companyLogo: '',
-    date: 'November 2022',
+    companyLogo: twilioLogo,
+    companyUrl: 'https://www.twilio.com/',
     linkedInUrl: 'https://www.linkedin.com/in/hartiganhm/',
     name: 'Hugh Hartigan',
     profilePictureUrl:
@@ -12,8 +14,7 @@ const recommendations = [
   },
   {
     company: 'Twilio',
-    companyLogo: '',
-    date: 'November 2022',
+    companyLogo: twilioLogo,
     linkedInUrl: 'https://www.linkedin.com/in/gautammadaan/',
     name: 'Gautam Madaan',
     profilePictureUrl:
@@ -23,8 +24,8 @@ const recommendations = [
   },
   {
     company: 'Twilio',
-    companyLogo: '',
-    date: 'November 2022',
+    companyLogo: twilioLogo,
+    companyUrl: 'https://www.twilio.com/',
     linkedInUrl: 'https://www.linkedin.com/in/mannycolon/',
     name: 'Manny Colon',
     profilePictureUrl:
@@ -34,8 +35,8 @@ const recommendations = [
   },
   {
     company: 'Twilio',
-    companyLogo: '',
-    date: 'November 2022',
+    companyLogo: twilioLogo,
+    companyUrl: 'https://www.twilio.com/',
     linkedInUrl: 'https://www.linkedin.com/in/eileentong/',
     name: 'Eileen Tong',
     profilePictureUrl:
@@ -45,19 +46,19 @@ const recommendations = [
   },
   {
     company: 'Twilio',
-    companyLogo: '',
-    date: 'November 2022',
+    companyLogo: twilioLogo,
+    companyUrl: 'https://www.twilio.com/',
     linkedInUrl: 'https://www.linkedin.com/in/raphaelzamora/',
     name: 'Raphael Zamora',
     profilePictureUrl:
       'https://media.licdn.com/dms/image/C4E03AQEfPg9Xa_xtxg/profile-displayphoto-shrink_200_200/0/1630868982421?e=1677110400&v=beta&t=66M4yy0Y8_wiu8FUzdGXft7hQM1cIQTCOj5OCTJMMFA',
     role: 'Software Engineer',
-    text: `Cesar and I worked together as apprentices at Twilio. He is knowledgeable in frontend frameworks as well as backend development. He is an excellent problem solver and knows how to leverage resources and ask the right questions if he ever gets stuck. His background in B2B sales comes to light in team meetings where he can guide everyone toward a common goal. My absolute favorite thing about Cesar is his positive attitude and charisma. He would be a great addition to any team!`,
+    text: `Cesar and I worked together as apprentices at Twilio. He is knowledgeable in frontend frameworks as well as backend development. He is an excellent problem solver and knows how to leverage resources and ask the right questions if he ever gets stuck.\n His background in B2B sales comes to light in team meetings where he can guide everyone toward a common goal. My absolute favorite thing about Cesar is his positive attitude and charisma. He would be a great addition to any team!`,
   },
   {
     company: 'HubSpot',
-    companyLogo: '',
-    date: 'March 2017',
+    companyLogo: hubspotLogo,
+    companyUrl: 'https://www.hubspot.com/',
     linkedInUrl: 'https://www.linkedin.com/in/jgonzalezhubspot/',
     name: 'Jessie Gonzalez',
     profilePictureUrl:
