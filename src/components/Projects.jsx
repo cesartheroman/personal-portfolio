@@ -33,7 +33,7 @@ const Projects = () => (
 
               <img
                 alt={project.screenShotAlt}
-                className="projectScreenshots"
+                className="projectScreenshot"
                 src={project.source}
               ></img>
             </article>
