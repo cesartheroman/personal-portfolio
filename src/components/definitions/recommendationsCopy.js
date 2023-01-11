@@ -15,6 +15,7 @@ const recommendations = [
   {
     company: 'Twilio',
     companyLogo: twilioLogo,
+    companyUrl: 'https://www.twilio.com/',
     linkedInUrl: 'https://www.linkedin.com/in/gautammadaan/',
     name: 'Gautam Madaan',
     profilePictureUrl:
