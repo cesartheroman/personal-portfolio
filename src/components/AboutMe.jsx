@@ -64,9 +64,9 @@ const AboutMe = () => (
         </div>
 
         <img
-          src={indyPhoto}
-          className="aboutMePhoto"
           alt={copy.imageInfo.aboutMe}
+          className="aboutMePhoto"
+          src={indyPhoto}
         ></img>
       </article>
     </section>

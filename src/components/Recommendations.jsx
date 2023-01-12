@@ -18,19 +18,21 @@ const Recommendations = () => (
               <div className="recDetails">
                 <a href={recommendation.linkedInUrl} target="_blank">
                   <img
-                    src={recommendation.profilePictureUrl}
+                    alt={recommendation.profilePictureAlt}
                     className="recommendationsPhoto"
+                    src={recommendation.profilePictureUrl}
                   ></img>
                 </a>
+
                 <h3>{recommendation.name}</h3>
 
                 <h4>{recommendation.role}</h4>
 
                 <a href={recommendation.companyUrl} target="_blank">
                   <img
+                    alt={recommendation.company}
                     src={recommendation.companyLogo}
                     className="companyLogo"
-                    alt={recommendation.company}
                   ></img>
                 </a>
               </div>

@@ -34,9 +34,9 @@ const ResumeModal = () => {
             <div className="modalContent">
               <Document file={cromanResume} externalLinkTarget="_blank">
                 <Page
+                  className={className}
                   pageNumber={1}
                   scale={defaultScale}
-                  className={className}
                 />
               </Document>
 
