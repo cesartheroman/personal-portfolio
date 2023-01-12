@@ -8,8 +8,8 @@ import { cromanResume } from '../../public';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
-const ModalContent = ({ onClose }) => {
-  return (
+const Resume = () => {
+  const ModalContent = ({ onClose }) => (
     <div className="modal">
       <Document file={cromanResume}>
         <Page pageNumber={1} />
@@ -17,33 +17,28 @@ const ModalContent = ({ onClose }) => {
       <button onClick={onClose}>Close</button>
     </div>
   );
-};
 
-const Modal = () => {
-  const [showModal, setShowModal] = useState(true);
-  const navigate = useNavigate();
+  const Modal = () => {
+    const [showModal, setShowModal] = useState(true);
+    const navigate = useNavigate();
 
-  const handleClose = () => {
-    setShowModal(false);
-    navigate('/');
+    const handleClose = () => {
+      setShowModal(false);
+      navigate('/');
+    };
+
+    return (
+      <>
+        {showModal &&
+          createPortal(<ModalContent onClose={handleClose} />, document.body)}
+      </>
+    );
   };
 
   return (
     <>
-      {showModal &&
-        createPortal(
-          <ModalContent onClose={handleClose} />,
-          document.getElementById('portal')
-        )}
-    </>
-  );
-};
-
-const Resume = () => {
-  return (
-    <div>
       <Modal />
-    </div>
+    </>
   );
 };
 

@@ -37,8 +37,8 @@ const Recommendations = () => (
 
               <div className="text">
                 <div className="blackBox">
-                  {recommendationsParagraph.map((para) => (
-                    <p>{para}</p>
+                  {recommendationsParagraph.map((para, idx) => (
+                    <p key={idx}>{para}</p>
                   ))}
                 </div>
               </div>
