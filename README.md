@@ -24,8 +24,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<a href='https://cesartheroman.com/' target='_blank'>
-  <img width="1494" alt="Screenshot 2023-01-12 at 2 47 48 PM" src="https://user-images.githubusercontent.com/60380027/212178063-260acb18-23eb-4171-b800-f1f7475fe0db.png">
+<a href='https://cesartheroman.com/' target="_blank">
+  <img width="1494" alt="Screenshot 2023-01-12 at 2 47 48 PM" src="https://user-images.githubusercontent.com/60380027/212178063-260acb18-23eb-4171-b800-f1f7475fe0db.png" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
