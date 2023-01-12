@@ -8,7 +8,6 @@ import {
   NotFound,
   Projects,
   Recommendations,
-  Resume,
 } from './components';
 
 import './styles.css';
@@ -21,7 +20,6 @@ const App = () => (
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/recommendations" element={<Recommendations />} />
-      <Route path="/resume" element={<Resume />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
 

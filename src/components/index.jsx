@@ -7,4 +7,4 @@ export { default as Navbar } from './Navbar';
 export { default as NotFound } from './NotFound';
 export { default as Projects } from './Projects';
 export { default as Recommendations } from './Recommendations';
-export { default as Resume } from './Resume';
+export { default as ResumeModal } from './ResumeModal';

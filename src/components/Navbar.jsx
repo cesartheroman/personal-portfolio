@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ResumeModal } from '.';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
@@ -42,9 +43,7 @@ const Navbar = () => (
         </li>
 
         <li>
-          <Link to="/resume" className="button">
-            Resume
-          </Link>
+          <ResumeModal />
         </li>
       </ul>
     </nav>
