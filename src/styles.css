@@ -316,10 +316,6 @@ footer ul {
   align-self: flex-end;
 }
 
-.resume {
-  scale: 100;
-}
-
 /* media queries */
 @media (min-width: 768px) {
   /* nav */
