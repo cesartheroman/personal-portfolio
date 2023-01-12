@@ -29,6 +29,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Cesar Roman Portfolio',
       template: 'public/index.html',
+      favicon: 'public/assets/favicon.svg',
     }),
   ],
 };
