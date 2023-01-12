@@ -88,6 +88,7 @@ Cesar Roman - [LinkedIn](https://www.linkedin.com/in/cesartheroman/) - cesardrom
 ## Acknowledgments
 
 * [Front End Master's: Getting Started with CSS](https://frontendmasters.com/courses/getting-started-css/)
-* [Hugh Hartigan-- for tech mentorship](https://github.com/HartiganHM)
+* [Hugh Hartigan: for tech mentorship](https://github.com/HartiganHM)
+* [Othneil Drew: Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
