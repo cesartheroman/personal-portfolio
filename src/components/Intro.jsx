@@ -8,15 +8,18 @@ const Intro = () => (
     <article className="intro">
       <p className="name introText">
         {copy.intro.greeting}
+
         <span>{copy.intro.name}</span>
       </p>
+
       <figure className="pictureContainerMobile">
         <img
-          src={profilePicture}
-          className="profilePicture"
           alt={copy.imageInfo.intro}
+          className="profilePicture"
+          src={profilePicture}
         />
       </figure>
+
       <div className="introText">
         <h2>{copy.intro.introduction}</h2>
 
@@ -28,9 +31,9 @@ const Intro = () => (
 
     <figure className="pictureContainerDesktop">
       <img
-        src={profilePicture}
-        className="profilePicture"
         alt={copy.imageInfo.intro}
+        className="profilePicture"
+        src={profilePicture}
       />
     </figure>
   </section>

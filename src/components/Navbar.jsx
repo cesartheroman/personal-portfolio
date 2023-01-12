@@ -15,6 +15,7 @@ const Navbar = () => (
             <Link to="/">
               <FontAwesomeIcon icon={faLaptopCode} className="nameIcon" />
               {'  '}
+
               <span>Cesar Roman</span>
             </Link>
           </h1>
@@ -31,6 +32,7 @@ const Navbar = () => (
         <li>
           <a href="https://www.linkedin.com/in/cesartheroman/" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} className="brandIcon" />
+
             <span className="sr-only">LinkedIn</span>
           </a>
         </li>
@@ -38,6 +40,7 @@ const Navbar = () => (
         <li>
           <a href="https://github.com/cesartheroman" target="_blank">
             <FontAwesomeIcon icon={faSquareGithub} className="brandIcon" />
+
             <span className="sr-only">GitHub</span>
           </a>
         </li>
