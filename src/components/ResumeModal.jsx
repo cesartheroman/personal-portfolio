@@ -40,7 +40,8 @@ const ResumeModal = () => {
                 />
               </Document>
 
-              {/* <button className="closeModal" onClick={toggleModal}>
+              {/* TODO: Revisit styling this button
+              <button className="closeModal" onClick={toggleModal}>
                 Close
               </button> */}
             </div>
