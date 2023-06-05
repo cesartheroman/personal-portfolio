@@ -196,6 +196,15 @@ nav li:first-child {
   font-size: 1rem;
 }
 
+.projectTitle {
+  text-decoration: none;
+}
+
+.projectTitle:hover {
+  color: var(--hotmag);
+  text-decoration: none;
+}
+
 /* footer styles */
 footer {
   text-align: center;
@@ -234,6 +243,7 @@ footer ul {
 }
 
 .recommendationsPhoto {
+  width: 200px;
   margin: 2rem 0 2rem 0;
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
