@@ -17,8 +17,13 @@ const Projects = () => (
             <article className={className} key={project.name}>
               <div className="text">
                 <h4>{project.title}</h4>
-
-                <h3>{project.name}</h3>
+                <a
+                  href={project.liveURL}
+                  target="_blank"
+                  className="projectTitle"
+                >
+                  <h3 className="projectTitle">{project.name}</h3>
+                </a>
 
                 <p className="blackBox">{project.description}</p>
 
@@ -30,12 +35,11 @@ const Projects = () => (
                   ))}
                 </ul>
               </div>
-
               <img
                 alt={project.screenShotAlt}
-                className="projectScreenshot"
                 src={project.source}
-              ></img>
+                className="projectScreenshot"
+              />
             </article>
           );
         })}
