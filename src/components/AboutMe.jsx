@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { indyPhoto } from '../../public';
+import { withBenji } from '../../public';
 import { copy } from '../components/definitions';
 
 const AboutMe = () => (
@@ -66,7 +66,7 @@ const AboutMe = () => (
         <img
           alt={copy.imageInfo.aboutMe}
           className="aboutMePhoto"
-          src={indyPhoto}
+          src={withBenji}
         ></img>
       </article>
     </section>
