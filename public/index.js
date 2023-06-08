@@ -1,4 +1,4 @@
-export { default as cromanResume } from './assets/cromanResume.pdf';
+export { default as cromanResume } from './assets/CRoman-Resume.pdf';
 export { default as hatchProject } from './assets/hatchProject.png';
 export { default as hubspotLogo } from './assets/hubspot.png';
 export { default as withBenji } from './assets/meAndBenji.png';
