@@ -24,7 +24,7 @@ const projects = [
       `Swagger UI`,
     ],
     source: productsAPI,
-    liveURL: `http://3.142.12.173/api-docs/`,
+    liveURL: `https://github.com/cesartheroman/Products-API`,
     screenShotAlt: `Screenshot of Products-API`,
   },
   {
