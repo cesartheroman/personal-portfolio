@@ -16,7 +16,7 @@ const copy = {
     line5: ` at the beginning of 2021, and left at the end of the year in order to pursue full stack engineering positions.`,
     line6: `In early 2022, I came across `,
     line7: `, decided to apply, and was selected as one of 8 software engineers out of 3,000+ applicants to be accepted into their rigorous 6 month apprenticeship. While I formally received an "Exceeds Expectations" designation at the end of the apprenticeship, Twilio wasn't able to retain me due to the wider macro-economic climate at the end of 2022. Now, as a free agent, I'm excited to see where my next adventure takes me!`,
-    line8: `Outside of coding, you can catch me yelling at my TV out of pure joy—but most likely out of frustration—while rooting for the Indianapolis Colts or the Mexican National Football Team. Outside of my sports fandom, you can catch me playing with my Australian Cattle and Shepherd mix dog, Benji!`,
+    line8: `Outside of coding, you can catch me yelling at my TV out of pure joy—but most likely out of frustration—while rooting for the Indianapolis Colts or the Mexican National Football Team. Outside of my sports fandom, you can catch me playing with my Australian Cattle and Shepherd mix, Benji!`,
     techIntro: `My favorite technologies include:`,
     techBody: [`React`, `TypeScript`, `Node`, `Express`, `Postgres`],
   },
