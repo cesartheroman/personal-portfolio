@@ -22,6 +22,10 @@ const Navbar = () => (
         </li>
 
         <li>
+          <a href="https://blog.cesartheroman.com/">Blog</a>
+        </li>
+
+        <li>
           <Link to="/projects">Projects</Link>
         </li>
 
